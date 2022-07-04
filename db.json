@@ -8,6 +8,15 @@
       "comment": "cancelamento de ruído",
       "date": "2022-07-04T03:00:00.000Z",
       "id": 5
+    },
+    {
+      "productName": "Maçã",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 1,
+      "comment": "madura",
+      "date": "2022-07-04T03:00:00.000Z",
+      "id": 6
     }
   ],
   "comments": [
