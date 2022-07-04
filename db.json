@@ -4,19 +4,10 @@
       "productName": "Fone de ouvido",
       "category": "Eletronic",
       "freshness": "Brand New",
-      "price": 50,
-      "comment": "barato",
+      "price": 350,
+      "comment": "cancelamento de ruído",
       "date": "2022-07-04T03:00:00.000Z",
       "id": 5
-    },
-    {
-      "productName": "Manga",
-      "category": "Fruits",
-      "freshness": "Second Hand",
-      "price": 10,
-      "comment": "caro",
-      "date": "2022-07-11T03:00:00.000Z",
-      "id": 6
     }
   ],
   "comments": [

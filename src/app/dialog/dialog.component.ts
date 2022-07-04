@@ -47,12 +47,12 @@ export class DialogComponent implements OnInit {
       if (this.productForm.valid) {
         this.api.postProduct(this.productForm.value).subscribe({
           next: (res) => {
-            alert('Produto adicionado com sucesso!🥰');
+            alert('Produto adicionado com sucesso!');
             this.productForm.reset();
             this.dialogRef.close('salvo!');
           },
           error: () => {
-            alert('Erro ao adicionar produto!🤡');
+            alert('Erro ao adicionar produto!');
           },
         });
       }
@@ -64,12 +64,12 @@ export class DialogComponent implements OnInit {
   updateProduct(){
     this.api.putProduct(this.productForm.value, this.editData.id).subscribe({
       next: (res) => {
-        alert('Produto alterado com sucesso!🥰')
+        alert('Produto alterado com sucesso!')
         this.productForm.reset();
         this.dialogRef.close('update');
       },
       error:()=>{
-        alert('Erro ao atualizar produto!🤡')
+        alert('Erro ao atualizar produto!')
       }
     })
   }

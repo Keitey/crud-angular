@@ -64,7 +64,7 @@ export class AppComponent implements OnInit {
   deleteProduct(id:number){
     this.api.deleteProduct(id).subscribe({
       next: (res) => {
-        alert('Produto deletado com sucesso!😁');
+        alert('Produto deletado com sucesso!');
         this.getAllProducts();
       },
       error:()=>{
